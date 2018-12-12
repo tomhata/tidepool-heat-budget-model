@@ -66,8 +66,7 @@ fileName = 'tenyear_final_serialdate.txt'; % Weather data file name
 %|startRow| Starting row number in data set
 %|endRow| Ending row number in data set
 startRow = 127297; % Row 127297 is 1/1/2002 0:00
-%endRow = 526032; % Last row of data set is 526032, 7/31/2009 23:50
-endRow = 227296;
+endRow = 526032; % Last row of data set is 526032, 7/31/2009 23:50
 
 % MODEL SETTINGS - Pool is modeled as a truncated cone.
 % To check heat flux values, radius can be set to 0.564 (area = 1m^2)
